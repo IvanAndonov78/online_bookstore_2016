@@ -1,0 +1,79 @@
+html{
+    border-top:0px;
+    padding-top:0px;
+    margin-top:0px;
+}
+body{
+    margin:0 auto;
+    border-top:0px;
+    padding-top:0px;
+    margin-top:0px;
+    background-image:url(../backgrounds/c.png);
+}
+
+#wrapper {
+	width: 960px;
+	margin:20px auto;
+}
+#master-head nav ul:after {
+	clear: both;
+	display: block;
+	content: "";
+	height: 0;
+}
+#master-head nav ul li {
+	float:left;
+	list-style: none;
+}
+#master-head nav ul li a {
+	color:#fff;
+	background: #003300;
+	padding: 10px;
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 10px;
+}
+/*#master-head nav ul li a.clicked {
+	background: #000033;
+	color:white;
+}*/
+input {
+	display: block;
+}
+ /* unvisited link */
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: #fff;
+}
+/* mouse over link */
+#master-head nav ul li a:hover {
+    color: yellow;
+    background: #000033;
+}
+/* selected link */
+a:active {
+    color: #fff;
+}
+#main-part{
+    color:maroon;
+}
+table {
+    margin-left:48px;
+}
+#tablesText tr td{
+    border: 1px maroon solid;
+}
+fieldset{
+    margin-left:48px;
+    border-radius:10px;
+    width:320px;
+}
+fieldset legend{
+    font-size:18pt;
+    font-weight: bolder;
+    color:maroon;
+}
